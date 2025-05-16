@@ -53,10 +53,10 @@
         raise_layer {
             display-name = "NUM";
             bindings = <
-&kp TAB         &kp QUESTION  &none  &kp ASTERISK          &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PAGE_UP     &none      &kp PAGE_DOWN  &kp SEMICOLON  &kp DELETE
-&kp CLCK        &none         &none  &kp SLASH             &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HOME        &kp UP     &kp END        &kp DOT        &kp LEFT_CONTROL
-&kp LEFT_SHIFT  &none         &none  &kp NON_US_BACKSLASH  &kp EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_ARROW  &kp DOWN   &kp RIGHT      &kp COMMA      &kp LEFT_ALT
-                                     &kp LEFT_GUI          &mo 3      &kp SPACE             &kp BACKSPACE          &trans          &kp ENTER
+&kp TAB         &kp QUESTION  &kp COLON  &kp ASTERISK          &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PAGE_UP     &none      &kp PAGE_DOWN  &kp SEMICOLON  &kp DELETE
+&kp CLCK        &none         &none      &kp SLASH             &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HOME        &kp UP     &kp END        &kp DOT        &kp LEFT_ALT
+&kp LEFT_SHIFT  &none         &none      &kp NON_US_BACKSLASH  &kp EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_ARROW  &kp DOWN   &kp RIGHT      &kp COMMA      &kp LEFT_CONTROL
+                                         &kp LEFT_GUI          &mo 3      &kp SPACE             &kp BACKSPACE          &trans          &kp ENTER
             >;
         };
 
