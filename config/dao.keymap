@@ -53,10 +53,10 @@
         raise_layer {
             display-name = "NUM";
             bindings = <
-&kp TAB         &kp QUESTION       &kp COLON  &kp ASTERISK          &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PAGE_UP     &none      &kp PAGE_DOWN  &kp SEMICOLON  &kp DELETE
-&kp CLCK        &kp DOUBLE_QUOTES  &kp SQT    &kp SLASH             &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HOME        &kp UP     &kp END        &kp DOT        &kp LEFT_ALT
-&kp LEFT_SHIFT  &none              &none      &kp NON_US_BACKSLASH  &kp EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_ARROW  &kp DOWN   &kp RIGHT      &kp COMMA      &kp LEFT_CONTROL
-                                              &kp LEFT_GUI          &mo 3      &kp SPACE             &kp BACKSPACE          &trans          &kp ENTER
+&kp TAB         &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp KP_NUMBER_7  &kp KP_NUMBER_5  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PAGE_UP     &kp KP_NUMBER_4  &kp PAGE_DOWN  &kp KP_NUMBER_3  &kp DELETE
+&kp CLCK        &kp LC(A)        &kp SQT          &kp KP_NUMBER_8  &kp KP_NUMBER_6  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HOME        &kp UP           &kp END        &kp KP_NUMBER_2  &kp LEFT_ALT
+&kp LEFT_SHIFT  &kp LC(Z)        &kp LC(X)        &kp LC(C)        &kp LC(V)        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_ARROW  &kp DOWN         &kp RIGHT      &kp KP_NUMBER_1  &kp LEFT_CONTROL
+                                                  &kp LEFT_GUI     &mo 3            &kp SPACE             &kp BACKSPACE          &trans          &kp ENTER
             >;
         };
 
